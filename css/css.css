@@ -1,0 +1,265 @@
+body {
+	margin: 0;
+	background: #191919;
+}
+	
+* {
+	font-family: "Book Antiqua", Georgia, serif;
+}	
+	
+#wrapper {
+	margin: auto;
+	background-color: #353537;
+	width: 1240px;
+	border-left: 20px double #E5E1C6;
+	border-right: 20px double #E5E1C6;
+}
+	
+header {
+	background: #E5E1C6;
+	padding: 10px 0px 0px 10px;
+	height: 90px;
+}
+	
+header img {
+	width:180px;
+	height:80px;
+	float: left;
+}
+
+nav {
+	background-color:#E5E1C6;
+	border-top:2px double #353537;
+	border-bottom:2px double #353537;
+}
+
+nav ul {
+	list-style-type: none;
+	margin:0;
+}
+
+nav li {
+	display: inline-block;
+	
+}
+
+nav a:link {
+	color: gray;
+	text-decoration: none;
+	text-align: center;
+	padding: 0px 110px;
+}
+
+nav a:visited {
+	color: #353537;
+}
+
+nav a:hover {
+	border: 2px double #353537;
+	background-color: #353537;
+	color:#E5E1C6;
+}
+
+nav a:active {
+	border-right: 2px double #353537;
+	border-left: 2px double #353537;
+	color:#F1ECE6;
+}
+
+#search {
+	border: 1px solid black;
+	border-radius:10px;
+	padding-left:5px;
+	width: 150px;
+	margin:28px 28px 28px 0px;
+	color: rgba(25,25,25,0.7);
+	font-size: 20px;
+	float:right;
+}
+	
+video {
+	margin-top: 50px;
+	margin-left: 340px;
+}
+	
+aside {
+	display: block;
+	background: #353537;
+	padding:50px 10px;
+	overflow:auto;
+	margin: auto;
+}
+
+h1 {
+	border-top: 3px solid #F1ECE6;
+	border-bottom: 3px solid #F1ECE6;
+	text-align: center;
+	padding: 10px;
+	color:#F1ECE6;
+	margin: auto;
+	margin-bottom: 30px;
+	width:60%;
+}
+
+article {
+	text-align:justify;
+	color: #F1ECE6;
+	margin-left: 75px;
+	margin-right: 75px;
+	font-size: 20px;
+}
+
+.more {
+	background: url('../images/more.png') no-repeat -505px -519px;
+	width: 58px;
+	height: 115px;
+	transform: scale(0.7);
+	position:relative;
+	margin:auto;
+}
+
+.more:hover {
+	background: url('../images/more.png') no-repeat -447px -385px;
+	width: 117px;
+	height: 115px;
+	transform: scale(0.7);
+	position:relative;
+	margin:auto;
+}
+
+a {
+	text-decoration:none;
+}
+
+.genre {
+	position:relative;
+	border: 10px solid #F1ECE6;
+	width: 215px;
+	height: 215px;
+	display: inline-block;
+	margin: 30px;
+	box-shadow: 5px 5px 10px black;
+}
+
+.genre img {
+	margin:auto;
+	width: 215px;
+	height: 215px;
+}
+	
+.genre p {
+	position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	text-align: center;
+	padding: 5px;
+	color:white;
+	margin: auto;
+	width:50%;
+	font-size: 25px;
+}
+
+.genre:hover {
+	border-color:#E5E1C6;
+}
+
+.other {
+	border: 10px solid white;
+	margin: 35px; 
+	width: 200px;
+	height:200px;
+	display:inline-block;
+	color: lightgrey;
+	text-align: center;
+	box-shadow: 5px 5px 10px black;
+	border-radius: 150px;
+}
+	
+.other img {
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+}
+
+#reference {
+	color: rgba(229,225,198,0.7);
+	border-top: 2px solid rgba(229,225,198,0.7);
+	border-bottom: 2px solid rgba(229,225,198,0.7);
+	font-size: 60%;
+	margin:20px;
+	padding:20px;
+}
+	
+footer {
+	padding: 10px;
+	text-align: center;
+	background: #E5E1C6;
+}
+	
+footer img {
+	display:block;
+	margin: auto;
+	margin-bottom:0;
+	width: 108px;
+	height:48px;
+}
+
+footer p {
+	margin-top:0;
+	margin-bottom:0;
+	color: rgba(53,53,53,0.8);
+}
+
+footer ul {
+	list-style-type: none;
+	transform:scale(0.175);
+	position:relative;
+	bottom:25px;
+	height:40px;
+}
+
+footer li {
+	display: inline-block;
+	padding:50px;
+}
+
+
+#yt {
+	background: url('../images/icon.png') no-repeat -247px -712px;
+	width: 208px;
+	height: 206px;
+}
+
+#twt {
+	background: url('../images/icon.png') no-repeat -532px -710px;
+	width: 208px;
+	height: 207px;
+}
+
+#fb {
+	background: url('../images/icon.png') no-repeat -809px -710px;
+	width: 205px;
+	height: 207px;
+}
+
+#yt:hover {
+	background: url('../images/icon.png') no-repeat -246px -358px;
+	width: 208px;
+	height: 206px;
+}
+
+#twt:hover {
+	background: url('../images/icon.png') no-repeat -531px -356px;
+	width: 208px;
+	height: 207px;
+}
+
+#fb:hover {
+	background: url('../images/icon.png') no-repeat -808px -356px;
+	width: 205px;
+	height: 207px;
+}
